@@ -13,7 +13,14 @@ end
 group :test do
   gem 'selenium-webdriver'
   gem 'capybara'
+  gem 'capybara-screenshot'
+  gem 'capybara-select2'
+  gem 'capybara-webkit'
+  gem 'launchy'
   gem 'factory_girl_rails'
+  gem 'rspec-its'
+  gem 'cucumber-rails', :require => false
+  gem 'database_cleaner'
 end
 
 gem 'sqlite3'
